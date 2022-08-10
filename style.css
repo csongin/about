@@ -1,0 +1,159 @@
+
+body {
+  margin: 0;
+  font-family: Source Sans Pro;
+  background: #e8eaf6;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* nav */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #263343;
+  padding: 8px 12px;
+}
+
+.navbar__logo {
+  font-size: 24px;
+  color: white;
+}
+
+.navbar__logo i {
+  color: #d49466;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar__menu li {
+  padding: 8px 12px;
+  color: white;
+}
+
+.navbar__icons {
+  list-style: none;
+  color: white;
+  display: flex;
+  padding-left: 0;
+}
+
+.navbar__icons li {
+  padding: 8px 12px;
+}
+
+.navbar__toggleBtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+  color: #d49466;
+
+}
+
+/* @media screen and (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar__menu li  {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar__icons {
+    display: none;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar__toggleBtn {
+    display: block;
+  }
+
+  .navbar__menu.active,
+  .navbar__icons.active {
+    display: flex;
+  }
+} */
+
+/* main */
+#main {
+  width: 45em;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 1s ease-in-out;
+}
+
+#home {
+  display: inline-flex;
+  width: 100%;
+  height: 358px;
+  flex-direction: row;
+  background: white;
+}
+
+.header {
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+}
+
+.header h1 {
+  font-size: 48px;
+  margin: 0;
+  padding-left: 40px;
+}
+
+.header p {
+  font-size: 25px;
+  margin: 0;
+  padding-left: 40px;
+  color: lightgray;
+}
+
+.content {
+  width: 40%;
+}
+
+.content img {
+  width: 100%;
+}
+
+/* about */
+.content_about {
+  display: block;
+}
+
+.content_about span {
+  color: darkkhaki;
+}
+
+.content_about h4 {
+  border-bottom: 1px solid gray;
+}
+
+.content_about li {
+  padding: 5px; 
+}

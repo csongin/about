@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/74a96585e6.js" crossorigin="anonymous"></script>
   <script src="main.js"></script>
 </head>
@@ -44,8 +44,10 @@
   <div class="main">
     <!-- home -->
     <div id="home_front">
-      <div id="profile_front">
+      <div id="button_front">
         <button onclick="changeDisplay()"><i class="fas fa-undo"></i></button>
+      </div>
+      <div id="profile_front">
         <h1>천송인</h1>
         <p>Backend developer</p>
       </div>
@@ -54,15 +56,32 @@
       </div>
     </div>
     <div id="home_back">
-      <div id="profile_back">
+      <div id="button_back">
         <button onclick="changeDisplay()"><i class="fas fa-undo"></i></button>
-        <ul>
-          <li>생년월일 : 1990.05.16.</li>
-          <li>연락처 : 010-9590-0516</li>
-          <li>별자리 : 황소자리</li>
-          <li>혈액형 : AB형</li>
-          <li>MBTI : INTJ</li>
-        </ul>
+      </div>
+      <div id="profile_back">
+        <table>
+          <tr>
+            <th>생년월일</th>
+            <td>1990.05.16.</td>
+          </tr>
+          <tr>
+            <th>연락처</th>
+            <td>010-9590-0516</td>
+          </tr>
+          <tr>
+            <th>별자리</th>
+            <td>황소자리</td>
+          </tr>
+          <tr>
+            <th>혈액형</th>
+            <td>AB형</td>
+          </tr>
+          <tr>
+            <th>MBTI</th>
+            <td>INTJ</td>
+          </tr>
+        </table>
       </div>
     </div>
   </div>

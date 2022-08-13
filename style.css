@@ -20,9 +20,6 @@ a {
   align-items: center;
   background-color: #263343;
   padding: 8px 12px;
-  width: 100%;
-  position: fixed;
-  top: 0;
 }
 
 .navbar__logo {
@@ -144,7 +141,7 @@ a {
 #profile_back table {
   width: 100%;
   padding: 80px 0;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 #profile_back th,td {
@@ -152,12 +149,10 @@ a {
 }
 
 /* about */
-
 #about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px;
 }
 
 .about_header {
@@ -191,7 +186,6 @@ a {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  margin: 100px 0;
 }
 
 .project_content {
@@ -219,15 +213,17 @@ a {
 }
 
 @media screen and (max-width: 720px) {
+  /* navbar */
+  #navbar {
+    width: 100%;
+  }
+  /* home */
   #home {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    height: fit-content;
   }
 
-
-  /* home */
   #home_front {
     display: flex;
     flex-direction: column-reverse;
@@ -275,13 +271,17 @@ a {
 
   #profile_back table {
     padding: 184px 0 183px 35px;
+    font-size: 16px;
   }
 
 
   /* about */
-
   #about {
-    margin-top: 100px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0;
   }
 
   .about_header {
@@ -289,24 +289,22 @@ a {
   }
 
   .about_header h1 {
-    text-align: center;
+    text-align: left;
   }
 
   .content_text {
     font-size: 12px;
+    width: fit-content;
   }
   
   .content_text h3 {
-    text-align: center;
-  }
-  
-  .content_text ul {
-    list-style: none;
+    text-align: left;
+    padding-left: 10px;
   }
   
   .content_text li {
     padding: 5px; 
     font-size: 10px;
-    text-align: center;
+    text-align: left;
   }
 }

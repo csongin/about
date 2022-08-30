@@ -1,10 +1,13 @@
 
 function changeDisplay() {
-  const icon = document.querySelector('#home_back');
+  const iconBack = document.querySelector('#home_back');
+  const iconFront = document.querySelector('#home_front')
 
-  if(icon.style.display === 'none') {
-    icon.style.display = 'inline-flex';
+  if(iconBack.style.display === 'none') {
+    iconBack.style.display = 'inline-flex';
+    iconFront.style.display = 'none';
   } else {
-    icon.style.display = 'none';
+    iconBack.style.display = 'none';
+    iconFront.style.display = 'inline-flex';
   }
 }

@@ -125,7 +125,7 @@ a {
   position: absolute;
   width: 722px;
   height: 345px;
-  background-image: url('background-texture.jpg');
+  background-color: white;
 }
 
 #button_back {

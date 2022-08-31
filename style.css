@@ -67,10 +67,14 @@ a {
 }
 
 /* main */
+#count {
+  padding: 20px;
+}
+
 #home {
   width: 45em;
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
